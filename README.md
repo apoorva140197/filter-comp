@@ -1,11 +1,6 @@
-# classplus-web-components
-Classplus Web Components
-
-
 ## ✨ Features
 
 - A UI design system for web applications.
-- A set of high-quality React components out of the box.
 - Written in TypeScript with predictable static types.
 
 ## 🖥 Environment Support
@@ -14,52 +9,11 @@ Classplus Web Components
 
 IE9, IE10, IE11, Edge| last 2 versions| last 2 versions| last 2 versions| last 2 versions| last 2 versions
 
-## 📦 Install
 
-```bash
-Add to package.json file dependency
-"classplus-components": "^1.0.0"
-```
+To run the application ,use the below commands on terminal-
+1. npm i
+2. npm run start
 
-## 🔨 Usage
+The project will run on localhost:3000 with the url as - http://localhost:3000/?path=/docs/filter--primary
 
-### ES6
-
-```jsx
-import { TestComponent } from "classplus-components";
-ReactDOM.render(<TestComponent />, mountNode);
-```
-
-### UMD
-
-### Typescript
-
-
-
-# Classplus Components Development & Deployment
-
-## ✨ Development
-
-```js
-yarn start
-```
-
-## 📦 Build (UMD+ES6) UI Components Library
-
-```js
-yarn run build
-```
-
-## 🔨 Tooling
-
-### Test
-
-```js
-yarn run test
-```
-
-### StoryBook
-
-```js
-yarn run storybook
-```
+<img width="1440" alt="Screenshot 2022-08-13 at 11 21 21 PM" src="https://user-images.githubusercontent.com/51906738/184505911-70bec0a1-7f01-4266-83a9-56e2c22c9750.png">
